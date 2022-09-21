@@ -1,56 +1,31 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+Portfolio
 
 > Description the project.
+ My Mobile Portfolio
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+- Major languages HTML and CSS 
+- Technologies used  Linters 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Vs Code Editor , Git 
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+### clone
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: (https://github.com/AbhishekkM05)
+- Twitter: (https://twitter.com/KPrinceM05)
+- LinkedIn: (www.linkedin.com/in/abhishek-kumar-mishra-bb5bb4101/)
 
 ## 🤝 Contributing
 
@@ -64,9 +39,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thank you Microversee for the opportunity.
+
 
 ## 📝 License
 
