@@ -1,0 +1,62 @@
+.Main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  padding: 25px;
+  height: 110px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  background-image: url(assets/images/header-shapes\ mobile.jpg);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
+  font-size: 40px;
+  line-height: 52px;
+  line-height: 87%;
+  color: #172b4d;
+}
+
+.About {
+  font-family: 'Poppins', sans-serif;
+  font-style: regular;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 100%;
+  color: #344563;
+  margin-top: -10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.Meet {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #7f8cff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Links ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -20px;
+  gap: 5px;
+}
+
+.Links ul li {
+  list-style-type: none;
+}
