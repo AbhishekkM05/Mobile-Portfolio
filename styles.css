@@ -2,11 +2,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e5e5e5;
+}
+
 .Main-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: hsl(234, 86%, 61%);
+  background-color: white;
 }
 
 .logo {
@@ -15,11 +20,13 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  background-color: white;
 }
 
 header {
   padding: 21px;
   height: 100px;
+  background-color: white;
 }
 
 section {
@@ -27,6 +34,7 @@ section {
   flex-direction: column;
   height: 700px;
   background-image: url(assets/images/header-shapes\ mobile.jpg);
+  background-color: white;
   background-repeat: no-repeat;
 }
 
@@ -77,7 +85,14 @@ h1 {
   border-radius: 10px;
   margin: 3px;
   background: #f7f7f9;
-  margin-left: 15px;
+  margin-left: 30px;
+}
+
+.skill li {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  gap: 100px;
 }
 
 .Links ul li {
@@ -87,11 +102,26 @@ h1 {
 .works {
   background: none;
   display: grid;
+  grid-template-columns: auto;
   justify-content: center;
   align-items: center;
 }
 
-.project1,
+.project1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+  box-decoration-break: unset;
+  width: 70%;
+  margin: auto;
+  margin-top: 110px;
+  border-radius: 16px;
+  background-color: white;
+}
+
 .project2 {
   display: flex;
   align-items: center;
@@ -99,10 +129,42 @@ h1 {
   flex-direction: column;
   text-align: start;
   box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+  box-decoration-break: unset;
   width: 70%;
   margin: auto;
   margin-top: 110px;
   border-radius: 16px;
+  background-color: white;
+}
+
+.project3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+  box-decoration-break: unset;
+  width: 70%;
+  margin: auto;
+  margin-top: 110px;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.project4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+  box-decoration-break: unset;
+  width: 70%;
+  margin: auto;
+  margin-top: 110px;
+  border-radius: 16px;
+  background-color: white;
 }
 
 .img1,
@@ -196,7 +258,7 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  margin-left: 50px;
+  margin-left: 65px;
   background: #fff;
   border-radius: 8px;
   color: #396df2;
@@ -218,14 +280,15 @@ button {
   line-height: 24px;
   line-height: 100%;
   color: #344563;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 h3 {
-  margin-left: 45px;
+  margin-left: 60px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -235,7 +298,7 @@ h3 {
 }
 
 .description {
-  margin-left: 45px;
+  margin-left: 65px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -246,7 +309,7 @@ h3 {
 .connect {
   padding-bottom: 20px;
   color: rgb(127, 140, 255);
-  margin-left: 23px;
+  margin-left: 33px;
   font-size: 16px;
   line-height: 24px;
 }
@@ -254,11 +317,10 @@ h3 {
 .social-icon {
   display: flex;
   list-style-type: none;
-  gap: 19px;
 }
 
 ul.social-icon li {
-  margin-left: 15px;
+  margin-left: 35px;
 }
 
 .skill {
@@ -269,7 +331,7 @@ ul.social-icon li {
   line-height: 24px;
   padding: 10px;
   color: #000;
-  margin-left: 45px;
+  margin-left: 65px;
 }
 
 .languages {
@@ -289,8 +351,26 @@ ul.social-icon li {
   color: #253858;
 }
 
+.arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0000 solid;
+  margin-left: 30px;
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
 hr {
-  width: 75%;
-  margin-left: 50px;
+  width: 90%;
+  margin-left: 25px;
   background: #f7f7f9;
+}
+
+.btn:hover {
+  background-color: blue; /* Blue */
+  color: white;
 }
