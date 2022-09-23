@@ -167,8 +167,7 @@ h1 {
   background-color: white;
 }
 
-.img1,
-.img2 {
+.img1 {
   padding: 12px;
   width: 90%;
 }
@@ -334,6 +333,10 @@ ul.social-icon li {
   margin-left: 65px;
 }
 
+.arw {
+  margin-left: 150px;
+}
+
 .languages {
   display: flex;
   flex-direction: column;
@@ -373,4 +376,19 @@ hr {
 .btn:hover {
   background-color: blue; /* Blue */
   color: white;
+}
+
+.btn:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.press:hover {
+  background-color: blue; /* Blue */
+  color: white;
+}
+
+.press:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
