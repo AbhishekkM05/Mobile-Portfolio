@@ -228,9 +228,7 @@ h2 {
 }
 
 .button-list ul {
-  display: flex;
-  align-items: flex-start;
-  margin-left: 65px;
+  float:left;
 }
 
 .button-list ul li {
