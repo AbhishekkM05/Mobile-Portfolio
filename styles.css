@@ -229,6 +229,7 @@ h2 {
 
 .button-list ul {
   float:left;
+  margin-left: 65px;
 }
 
 .button-list ul li {
