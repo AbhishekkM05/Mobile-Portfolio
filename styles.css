@@ -422,7 +422,7 @@ hr {
 .first-container > h2 {
   color: white;
   margin-top: 60px;
-  margin-right: 80px;
+  margin-right: 90px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -460,7 +460,7 @@ hr {
   margin-bottom: 20px;
 }
 
-#touch {
+.touch {
   background-color: white;
   border: 1.6px solid rgb(96, 112, 255);
   border-radius: 8px;
@@ -496,4 +496,14 @@ textarea:focus {
   border-radius: 10px;
   margin-left: 170px;
   background: #0d151e;
+}
+
+.touch:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.touch:hover {
+  background-color: blue; /* Blue */
+  color: white;
 }
