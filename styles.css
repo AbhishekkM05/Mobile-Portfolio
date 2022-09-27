@@ -392,3 +392,118 @@ hr {
   transform: scale(0.98);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: url(assets/images/Contact\ me.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.background-shape {
+  display: flex;
+  position: absolute;
+  margin-left: 153px;
+  margin-top: 15px;
+}
+
+.first-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+}
+
+.first-container > h2 {
+  color: white;
+  margin-top: 60px;
+  margin-right: 90px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  text-align: center;
+}
+
+.first-container > p {
+  color: white;
+  margin-right: 48px;
+  margin-left: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: -25px;
+}
+
+#name {
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-top: -18px;
+}
+
+#email {
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+
+#msg {
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+.touch {
+  background-color: white;
+  border: 1.6px solid rgb(96, 112, 255);
+  border-radius: 8px;
+  color: rgb(96, 112, 255);
+  margin-right: 150px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+form > input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background-color: white;
+  padding: 20px;
+  width: 65%;
+}
+
+form > textarea {
+  color: #172b4d;
+  width: 65%;
+  padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+.shape {
+  width: 134px;
+  height: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  margin-left: 170px;
+  background: #0d151e;
+}
+
+.touch:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.touch:hover {
+  background-color: blue; /* Blue */
+  color: white;
+}
