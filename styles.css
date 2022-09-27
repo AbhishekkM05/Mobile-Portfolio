@@ -105,7 +105,6 @@ h1 {
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
-  
 }
 
 .project1 {
@@ -401,9 +400,8 @@ hr {
   align-items: center;
   width: 100%;
   background-image: url(assets/images/Contact\ me.png);
- background-repeat: no-repeat;
- background-size: 100%;
-  
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .background-shape {
@@ -418,7 +416,7 @@ hr {
   flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
-   padding: 15px;
+  padding: 15px;
 }
 
 .first-container > h2 {
@@ -431,60 +429,56 @@ hr {
   font-size: 40px;
   line-height: 52px;
   display: flex;
-  text-align: center; 
-  
+  text-align: center;
 }
 
 .first-container > p {
   color: white;
-    margin-right: 48px;
-    margin-left: 48px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    margin-top: -25px;
+  margin-right: 48px;
+  margin-left: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: -25px;
 }
 
 #name {
-margin-bottom: 20px;
-margin-left: 80px;
-margin-top: -18px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-top: -18px;
 }
 
 #email {
   margin-bottom: 20px;
   margin-left: 80px;
-  
 }
 
 #msg {
   margin-left: 80px;
   margin-bottom: 20px;
-  
 }
 
-
-#touch{
+#touch {
   background-color: white;
   border: 1.6px solid rgb(96, 112, 255);
   border-radius: 8px;
   color: rgb(96, 112, 255);
   margin-right: 150px;
   margin-left: 80px;
-    margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
-form  > input {
+form > input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   background-color: white;
   padding: 20px;
-  width: 65%
+  width: 65%;
 }
 
-form  > textarea {
+form > textarea {
   color: #b3bac5;
   width: 65%;
   padding: 10px;
@@ -495,8 +489,6 @@ textarea:focus {
   border-color: #000;
 }
 
-
-
 .shape {
   width: 134px;
   height: 5px;
@@ -505,5 +497,3 @@ textarea:focus {
   margin-left: 170px;
   background: #0d151e;
 }
-
-
