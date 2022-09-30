@@ -375,13 +375,13 @@ ul.social-icon li {
   font-size: 20px;
   line-height: 24px;
   color: #0000 solid;
-  margin-left: 30px;
+  margin-left: 45px;
   margin-right: 25px;
   margin-top: 15px;
 }
 
 hr {
-  width: 90%;
+  width: 85%;
   margin-left: 25px;
   background: #f7f7f9;
 }
@@ -396,9 +396,31 @@ hr {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
+.btn:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.btn:disabled {
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  color: #5e6c84;
+}
+
 .press:hover {
   background-color: blue; /* Blue */
   color: white;
+}
+
+.press:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.press:disabled {
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  color: #5e6c84;
 }
 
 .press:active {
@@ -525,4 +547,15 @@ textarea:focus {
 .touch:hover {
   background-color: blue; /* Blue */
   color: white;
+}
+
+.touch:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.touch:disabled {
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  color: #5e6c84;
 }
