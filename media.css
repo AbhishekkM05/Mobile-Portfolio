@@ -209,6 +209,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 70%;
     width: 100%;
 
     /* margin: 30px; */
@@ -277,6 +278,11 @@
     display: none;
   }
 
+
+  .contact-form {
+    margin-top: -115px;
+  }
+
   .formspree {
     display: flex;
     justify-content: center;
@@ -294,5 +300,31 @@
     display: flex;
     justify-content: center;
     margin-left: 280px;
+  }
+
+  .logo {
+    animation: rotatetext 3s;
+  }
+
+  @keyframes rotatetext {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+  .card1:hover {
+    transform: scale(1.35);
+  }
+
+  .card2:hover {
+    transform: scale(1.35);
+  }
+
+  .options:hover {
+    transform: scale(1.2);
   }
 }
