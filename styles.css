@@ -516,12 +516,12 @@ form > input {
   border-radius: 8px;
   background-color: white;
   padding: 20px;
-  width: 65%;
+  width: 50%;
 }
 
 form > textarea {
   color: #172b4d;
-  width: 65%;
+  width: 50%;
   padding: 10px;
 }
 
