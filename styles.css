@@ -37,7 +37,7 @@ header {
   display: flex;
   flex-direction: column;
   height: 700px;
-  background-image: url(assets/images/header-shapes\ mobile.jpg); 
+  background-image: url(assets/images/header-shapes\ mobile.jpg);
   background-color: white;
   background-repeat: no-repeat;
 }
@@ -230,7 +230,6 @@ h2 {
   color: #344563;
 }
 
-
 .para {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -416,6 +415,12 @@ hr {
   background-image: url(assets/images/Contact\ me.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-top: -15px;
+  margin-left: 15px;
+}
+
+.ignore {
+  display: none;
 }
 
 .background-shape {
