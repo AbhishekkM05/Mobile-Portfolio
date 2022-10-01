@@ -489,10 +489,6 @@ hr {
   margin-top: -25px;
 }
 
-.form-bg {
-  display: none;
-}
-
 #name {
   margin-bottom: 20px;
   margin-left: 80px;
@@ -524,12 +520,12 @@ form > input {
   border-radius: 8px;
   background-color: white;
   padding: 20px;
-  width: 50%;
+  width: 65%;
 }
 
 form > textarea {
   color: #172b4d;
-  width: 50%;
+  width: 65%;
   padding: 10px;
 }
 
