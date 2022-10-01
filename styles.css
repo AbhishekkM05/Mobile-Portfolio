@@ -489,6 +489,10 @@ hr {
   margin-top: -25px;
 }
 
+.form-bg {
+  display: none;
+}
+
 #name {
   margin-bottom: 20px;
   margin-left: 80px;
