@@ -415,11 +415,11 @@
   }
 
   .card1:hover {
-    transform: scale(1.35);
+    transform: scale(1.15);
   }
 
   .card2:hover {
-    transform: scale(1.35);
+    transform: scale(1.15);
   }
 
   .options:hover {
