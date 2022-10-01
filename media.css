@@ -281,7 +281,7 @@
     width: 85%;
     justify-content: center;
     flex-direction: row;
-    margin-left: -215px;
+    margin-left: -210px;
   }
 
   .options {
@@ -289,9 +289,16 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 12px;
+    padding: 10px;
     column-gap: 115px;
     margin-left: -30px;
+  }
+
+  .tech-img {
+    padding: 14px;
+    display: flex;
+    margin-left: -17px;
+    justify-content: flex-start;
   }
 
   .tech {
