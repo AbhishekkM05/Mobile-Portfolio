@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
 
     <title>Mobile Portfolio</title>
 </head>
@@ -17,26 +18,30 @@
         <nav>
         <nav class="Main-container"><p class="logo"><a="">My Logo</a></p>
         <nav class="menu"><i class="fa fa-bars"></i></nav>
+        <nav class="menu2">
+            <ul>
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
         </nav>
         </nav>
         </header>
-<section>
-       <h1>I’m Abhishek <br>
-        Glad to see<br> you!</h1>
+<section class="top">
+       <h1>I’m Abhishek
+        Glad to see you!</h1>
     <p class ="About">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
     <a href="#" class="Meet">LET'S CONNECT</a>
     <div class="Links">
     <ul>
-       <!-- <li><a href="#" class ="link"><i class="fa fa-twitter"></i></a></li> -->
+       
        <li><img src="assets/images/Vector.svg" alt="icon1"></li>
-       <!-- <li><a href="#" class ="link"><i class="fa fa-linkedin-square" ></i></a></li> -->
+       
        <li><img src="assets/images/Linkedin.svg" alt="icon2"></li>
        <li><img src="assets/images/Vector (1).svg" alt="icon3"></li>
-       <!-- <li><a href="#" class ="link"><i class="fa fa-github"></i></a></li>
-       <li><a href="#" class ="link"><i class= 'fa fa-hand-peace-o'></i></a></li> -->
        <li><img src="assets/images/Vector (2).svg" alt="icon4"></li>
        <li><img src="assets/images/Vector (3).svg" alt="icon5"></li>
-       <!-- <li><a href="" class="link"><i class="material-icons">feedback</i></a> </li> -->
         </ul>
          </div>
 </section>
@@ -44,6 +49,7 @@
 <section class="works">
     <div class="project1">
         <div class="img1"><img src="assets/images/Tonic.png" alt="T"></div>
+        <div class="card1"><img src="assets/images/card1_ds.png" alt="T"></div>
         <div class="task"><h2>Tonic</h2>
             <div class="list">
             <ul>
@@ -54,8 +60,8 @@
                 <li>2015</li>
             </ul>
             </div>
-            <p class="para">A daily selection of privately<br> personalized
-                reads; no accounts or<br> sign-ups required.</p>
+            <p class="para">A daily selection of privately personalized
+                reads; no accounts or sign-ups required.</p> 
                 <div class="button-list">
                     <ul>
                       <li><a href="">html</a></li>
@@ -70,7 +76,8 @@
     </div>
     <div class="project2">
         <div class="img1"><img src="assets/images/Multipost.png" alt="MP"></div>
-        <div class="task"><h2>Multi-post<br>Stories</h2>
+        <div class="card2"><img src="assets/images/card2_ds.png" alt="T"></div>
+        <div class="task"><h2>Multi-post Stories</h2>
             <div class="list">
                 <ul>
                     <li class="canopy">CANOPY</li> 
@@ -80,11 +87,11 @@
                     <li>2015</li>
                 </ul>
                 </div>
-            <p class="para">A daily selection of privately<br> personalized
-                reads; no accounts or<br> sign-ups required.</p>
+            <p class="para">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
                 <div class="button-list">
-                    <ul>
+                    <ul class="bl">
                       <li><a href="">html</a></li>
+                      <li class="ignore"><a href="#">Ruby on rails</a></li>
                       <li><a href="">css</a></li>
                       <li><a href="">javaScript</a></li>
                     </ul>
@@ -96,21 +103,22 @@
     </div>
     <div class="project3">
         <div class="img1"><img src="assets/images/Tonic1.png" alt="T1"></div>
-        <div class="task"><h2>Tonic</h2>
+        <div class="card1"><img src="assets/images/card3_ds.png" alt="T"></div>
+        <div class="task"><h2>Facebook 360</h2>
             <div class="list">
                 <ul>
-                    <li class="canopy">CANOPY</li> 
+                    <li class="canopy">Facebook</li> 
                     <li><img src="assets/images/Counter.png" alt="dot"></li>
-                    <li>Backend Dev</li>
+                    <li>Fullstack Dev</li>
                     <li><img src="assets/images/Counter.png" alt="dot"></li>
                     <li>2015</li>
                 </ul>
                 </div>
-            <p class="para">A daily selection of privately<br> personalized
-                reads; no accounts or<br> sign-ups required.</p>
+            <p class="para">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
                 <div class="button-list">
-                    <ul>
+                    <ul class="bl">
                       <li><a href="">html</a></li>
+                      <li class="ignore"><a href="">Ruby on rails</a></li>
                       <li><a href="">css</a></li>
                       <li><a href="">javaScript</a></li>
                     </ul>
@@ -122,21 +130,22 @@
         </div>
         <div class="project4">
          <div class="img1"><img src="assets/images/Multpost1.png" alt="MP1"></div>
-            <div class="task"><h2>Multi-post<br>Stories</h2>
+         <div class="card2"><img src="assets/images/card4_ds.png" alt="T"></div>
+            <div class="task"><h2>Uber Navigation</h2>
                 <div class="list">
                     <ul>
-                        <li class="canopy">CANOPY</li> 
+                        <li class="canopy">Uber</li> 
                         <li><img src="assets/images/Counter.png" alt="dot"></li>
-                        <li>Backend Dev</li>
+                        <li>Lead Developer</li>
                         <li><img src="assets/images/Counter.png" alt="dot"></li>
-                        <li>2015</li>
+                        <li>2018</li>
                     </ul>
                     </div>
-                <p class="para">A daily selection of privately<br> personalized
-                    reads; no accounts or<br> sign-ups required.</p>
+                <p class="para">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
                     <div class="button-list">
-                        <ul>
+                        <ul class="bl">
                           <li><a href="">html</a></li>
+                          <li class="ignore"><a href="">Ruby on rails</a></li>
                           <li><a href="">css</a></li>
                           <li><a href="">javaScript</a></li>
                         </ul>
@@ -147,7 +156,8 @@
             </div>
         </div>
     <div class="describe">
-        <h3>About <br> Myself</h3>
+        <div class="abt-self">
+        <h3>About Myself</h3>
         <p class="description">Hello I’m a software
             developer! I can help<br> you build a product ,
             feature or website<br> Look through some of my work
@@ -166,27 +176,26 @@
                 <li><a href="#" class="link"><img src="assets/images/Vector.svg" alt="icon2"></a>
                     <li><a href="#" class="link">
                         <img src="assets/images/Vector (1).svg" alt="icon1">
-                        <!-- <i class="fab fa-medium-m"></i> -->
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <button class="press" type="button">Get Resume</button>
+            <button class="press" type="button">Get Resume</button></div>
 
             <div class="skills">
                 <p class="skill"> Languages<a class="arw"><img src="assets/images/arrow icon.png" alt="arrow"></a></p>
                 <ul class="languages">
-                    <li><img src="assets/images/Ellipse1.png" alt="JS"><a
+                    <li class="options"><img src="assets/images/Ellipse 1.png" alt="JS" class="tech-img"><a
                             href="#" class="tech">JavaScript</a></li>
-                    <li> <img src="assets/images/Ellipse1-1.png" alt="html"><a
+                    <li class="options"> <img src="assets/images/Ellipse 2.png" alt="html" class="tech-img"><a
                             href="#" class="tech">HTML5</a></li>
-                    <li><img src="assets/images/Ellipse1-2.png" alt="css"><a
+                    <li class="options"><img src="assets/images/Ellipse 3.png" alt="css" class="tech-img"><a
                             href="#" class="tech">CSS</a></li>
-                
+                </ul>
                 <p class="arrow">Frameworks <a><img src="assets/images/Union.png" alt="arrow"></a></p>
                 <hr>
-                <p class="arrow">Skills <a><img src="assets/images/Union.png" alt="arrow"></a></li>
+                <p class="arrow">Skills <a><img src="assets/images/Union.png" alt="arrow"></a>
                 <hr>
 
             </div>
@@ -196,15 +205,15 @@
     <div class="contact-form">
          <div class="first-container" >
              <h2>Contact me </h2>
-            <p class="para">If you have an application you <br> are interested in developing, a <br>  feature that you need built or a <br> project that needs coding. <br> I’d love to help with it </p>
+            <p class="para">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
         </div>
         <div class="formspree">
-        <form action="https://formspree.io/f/xdobrbok" method="post">
+         <form action="https://formspree.io/f/xdobrbok" method="post">
              
                 <input type = "text" id="name"  name="user_name" maxlength = "30" placeholder="Enter Your name"  required>
                 <input type="email" id="email" name="user_email" placeholder="Enter your email" required>
                 <textarea name="message" id="msg" cols="25" rows="10" maxlength = "500" placeholder="Write your message here" required></textarea>
-                <button type="submit"  class="touch">Get It Touch</button> 
+                <button type="submit"  class="touch">Get It Touch</button>  
                 <!-- <button type="submit" class="press">Get It Touch</button>  -->
              </form>
              <img src="assests/images/shape.png" class="shape" alt=""> 
@@ -214,7 +223,7 @@
   </div>
    </section>
 
-    <hr> <br>
+     <br>
 
 </body>
 </html>

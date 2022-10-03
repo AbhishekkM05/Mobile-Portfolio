@@ -1,0 +1,442 @@
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding-right: 154px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .menu2 > ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+  }
+
+  .Main-container {
+    margin-left: 60px;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    background-image: url(assets/images/Header\ bg.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin-left: 145px;
+    max-width: 30%;
+    width: 30%;
+    margin-top: 185px;
+    color: #172b4d;
+  }
+
+  .About {
+    font-family: 'Poppins', sans-serif;
+    font-style: regular;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin-top: -12px;
+    margin-left: 150px;
+    margin-right: 350px;
+    margin-bottom: 15px;
+  }
+
+  .Meet {
+    margin-left: 150px;
+  }
+
+  .Links ul {
+    margin-left: 112px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .works {
+    background: none;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card1 {
+    display: flex;
+    padding: 24px;
+  }
+
+  .card2 {
+    display: flex;
+    padding: 24px;
+    width: 90%;
+  }
+
+  .project1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: start;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+    box-decoration-break: unset;
+    width: 1156px;
+    height: 496px;
+    margin: auto;
+    margin-top: 110px;
+    border-radius: 16px;
+    background-color: white;
+  }
+
+  .project2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    text-align: start;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+    box-decoration-break: unset;
+    width: 1156px;
+    height: 496px;
+    margin: auto;
+    margin-top: 110px;
+    border-radius: 16px;
+    background-color: white;
+  }
+
+  .project3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: start;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+    box-decoration-break: unset;
+    width: 1156px;
+    height: 496px;
+    margin: auto;
+    margin-top: 110px;
+    border-radius: 16px;
+    background-color: white;
+  }
+
+  .project4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    text-align: start;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.75);
+    box-decoration-break: unset;
+    width: 1156px;
+    height: 496px;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: -350px;
+    border-radius: 16px;
+    background-color: white;
+  }
+
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    padding: 10px;
+    margin-left: 65px;
+    margin-top: -15px;
+  }
+
+  .para {
+    margin-left: 78px;
+  }
+
+  .btn {
+    margin-left: 72px;
+  }
+
+  .list ul {
+    display: flex;
+    margin-left: 64px;
+    margin-top: -15px;
+    align-items: flex-start;
+  }
+
+  .task {
+    display: flex;
+    flex-direction: column;
+    margin-right: 65px;
+    margin-bottom: 30px;
+  }
+
+  .task ul {
+    display: flex;
+    gap: 12px;
+    border-radius: 8px;
+    margin-right: 50px;
+    color: #05070a;
+    list-style-type: none;
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-left: 43px;
+  }
+
+  .canopy {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .describe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    width: 100%;
+
+    /* margin: 30px; */
+    row-gap: 10px;
+    padding-top: 142px;
+    padding-bottom: 555px;
+    margin-bottom: -516px;
+  }
+
+  h3 {
+    margin-left: -88px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding: 60px;
+    color: #344563;
+    margin-bottom: 16px;
+  }
+
+  .description {
+    margin-left: -30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -50px;
+    max-width: 145%;
+    width: 145%;
+  }
+
+  .connect {
+    padding-bottom: 20px;
+    color: rgb(127, 140, 255);
+    margin-left: -14px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .social-icon {
+    display: flex;
+    list-style-type: none;
+    margin-left: -100px;
+  }
+
+  .press {
+    margin-left: -22px;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 142px;
+    margin-left: -10px;
+    margin-top: 120px;
+  }
+
+  .languages {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: -210px;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    column-gap: 115px;
+    margin-left: -30px;
+  }
+
+  .tech-img {
+    padding: 14px;
+    display: flex;
+    margin-left: -17px;
+    justify-content: flex-start;
+  }
+
+  .tech {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: -10px;
+    margin-top: 8px;
+    color: #253858;
+  }
+
+  .arw {
+    margin-left: 555px;
+  }
+
+  .arrow {
+    margin-right: 150px;
+    margin-left: 10px;
+  }
+
+  hr {
+    width: 82%;
+    margin-left: 0;
+  }
+
+  .abt-self {
+    /* margin-right: 250px; */
+    padding: 140px;
+    margin-bottom: -15px;
+  }
+
+  .shape {
+    display: none;
+  }
+
+  .background-shape {
+    display: none;
+  }
+
+  .contact-form {
+    margin-top: -120px;
+    margin-bottom: -100px;
+    background-image: url(assets/images/desktop\ contact.svg);
+  }
+
+  .first-container > h2 {
+    color: white;
+    margin-top: 60px;
+    margin-right: 90px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .first-container > p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-left: 400px;
+    width: 43%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: -25px;
+  }
+
+  form > input {
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  form > textarea {
+    color: #172b4d;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .formspree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 280px;
+  }
+
+  .bl li {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -14px;
+  }
+
+  .touch {
+    display: flex;
+    justify-content: center;
+    margin-left: 240px;
+  }
+
+  .logo {
+    animation: rotatetext 3s;
+  }
+
+  @keyframes rotatetext {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+  .card1:hover {
+    transform: scale(1.15);
+  }
+
+  .card2:hover {
+    transform: scale(1.15);
+  }
+
+  .options:hover {
+    transform: scale(1.2);
+  }
+}

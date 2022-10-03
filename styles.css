@@ -23,13 +23,21 @@ body {
   background-color: white;
 }
 
+.menu {
+  margin-left: -30px;
+}
+
+.menu2 {
+  display: none;
+}
+
 header {
   padding: 21px;
   height: 100px;
   background-color: white;
 }
 
-section {
+.top {
   display: flex;
   flex-direction: column;
   height: 700px;
@@ -45,6 +53,7 @@ h1 {
   line-height: 52px;
   margin-left: 15px;
   margin-top: 90px;
+  margin-right: 31px;
   color: #172b4d;
 }
 
@@ -105,6 +114,14 @@ h1 {
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
+}
+
+.card1 {
+  display: none;
+}
+
+.card2 {
+  display: none;
 }
 
 .project1 {
@@ -362,14 +379,14 @@ ul.social-icon li {
   font-size: 20px;
   line-height: 24px;
   color: #0000 solid;
-  margin-left: 30px;
-  margin-right: 25px;
+  margin-left: 65px;
+  margin-right: 85px;
   margin-top: 15px;
 }
 
 hr {
-  width: 90%;
-  margin-left: 25px;
+  width: 70%;
+  margin-left: 50px;
   background: #f7f7f9;
 }
 
@@ -383,9 +400,31 @@ hr {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
+.btn:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.btn:disabled {
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  color: #5e6c84;
+}
+
 .press:hover {
   background-color: blue; /* Blue */
   color: white;
+}
+
+.press:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.press:disabled {
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  color: #5e6c84;
 }
 
 .press:active {
@@ -402,6 +441,12 @@ hr {
   background-image: url(assets/images/Contact\ me.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-top: -15px;
+  margin-left: 15px;
+}
+
+.ignore {
+  display: none;
 }
 
 .background-shape {
@@ -434,8 +479,9 @@ hr {
 
 .first-container > p {
   color: white;
-  margin-right: 48px;
-  margin-left: 48px;
+  max-width: 72%;
+  width: 78%;
+  margin-left: 50px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -506,4 +552,15 @@ textarea:focus {
 .touch:hover {
   background-color: blue; /* Blue */
   color: white;
+}
+
+.touch:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.touch:disabled {
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  color: #5e6c84;
 }
