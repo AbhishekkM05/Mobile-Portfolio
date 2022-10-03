@@ -479,8 +479,9 @@ hr {
 
 .first-container > p {
   color: white;
-  margin-right: 48px;
-  margin-left: 48px;
+  max-width: 72%;
+  width: 78%;
+  margin-left: 50px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
