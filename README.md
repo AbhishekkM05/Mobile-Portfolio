@@ -4,7 +4,7 @@
 Portfolio
 
 > Description the project.
- My Portfolio Project
+ My Portfolio Project . This project is done to check the accessibilty of the portfolio project and adapatabilty of pages into browsers.
 
 
 ## Built With
@@ -31,6 +31,11 @@ https://github.com/AbhishekkM05/Mobile-Portfolio.git
 - GitHub: (https://github.com/AbhishekkM05)
 - Twitter: (https://twitter.com/KPrinceM05)
 - LinkedIn: (www.linkedin.com/in/abhishek-kumar-mishra-bb5bb4101/)
+
+👤 **Author**
+
+- GitHub: [@githubhandle](https://github.com/Htetaungkyaw71)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/htet-aung-kyaw-9a77271a7/)
 
 ## 🤝 Contributing
 
