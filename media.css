@@ -217,6 +217,7 @@
     align-items: center;
     height: 75%;
     width: 100%;
+    color: black;
 
     /* margin: 30px; */
     row-gap: 10px;
@@ -251,7 +252,8 @@
 
   .connect {
     padding-bottom: 20px;
-    color: rgb(127, 140, 255);
+    /* color: rgb(127, 140, 255); */
+    color: black;
     margin-left: -14px;
     font-size: 16px;
     line-height: 24px;
