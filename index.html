@@ -15,29 +15,18 @@
 </head>
 <body>
         <header>
-        <nav>
+        
         <div class="Main-container"><p class="logo"><a="">My Logo</a></p>
-        <div class="menu"><i class="fa fa-bars"></i></div> 
-        <div class="menu2">
+        <div class="menu" id="icon"><i class="fa fa-bars"></i></div>
+        <nav class="menu2">
             <ul>
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+                    <li><a class="nav-link" href="#About">About</a></li>
+                    <li><a class="nav-link" href="#Contact">Contact</a></li>
             </ul>
+        </nav>
         </div>
     </div>
-    <!-- <div class="menubar"><i class="fa fa-bars"></i> -->
-        <!-- <ul class="mobile-menu">
-            <li><a href="#" Portfolio></a></li>
-            <li><a href="#" About></a></li>
-            <li><a href="#" Contact></a></li>
-        </ul> -->
-
-    </div>
-
-    </nav>
-    
-    
         </header>
 <section class="top">
        <h1>I’m Abhishek
@@ -57,7 +46,7 @@
          </div>
 </section>
 
-<section class="works">
+<section class="works" id="Portfolio">
     <div class="project1">
         <div class="img1"><img src="assets/images/Tonic.png" alt="T"></div>
         <div class="card1"><img src="assets/images/card1_ds.png" alt="T"></div>
@@ -166,7 +155,7 @@
                 </div>
             </div>
         </div>
-    <div class="describe">
+    <div class="describe" id="About">
         <div class="abt-self">
         <h3>About Myself</h3>
         <p class="description">Hello I’m a software
@@ -213,7 +202,7 @@
         </div>
 
         
-    <div class="contact-form">
+    <div class="contact-form" id="Contact">
          <div class="first-container" >
              <h2>Contact me </h2>
             <p class="para">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -235,6 +224,8 @@
    </section>
 
      <br>
- <script src="mobilemenu.js"></script>
+
+     <script src="mobilemenu.js"></script>
+
 </body>
 </html>
