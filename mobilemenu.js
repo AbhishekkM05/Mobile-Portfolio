@@ -13,6 +13,10 @@ icon.addEventListener('click', () => {
     span.addEventListener('click', () => {
       nav.style.display = 'none';
     });
-    document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => { nav.style.display = 'none'; }));
+    document.querySelectorAll('.nav-link').forEach((n) =>
+      n.addEventListener('click', () => {
+        nav.style.display = 'none';
+      })
+    );
   }
 });
