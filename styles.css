@@ -564,3 +564,49 @@ textarea:focus {
   border-radius: 8px;
   color: #5e6c84;
 }
+
+.nav-style {
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  width: 100vw;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-style ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  list-style: none;
+  gap: 16px;
+}
+
+.nav-style ul li a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+  cursor: pointer;
+}
+
+.close {
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+  margin-top: -219px;
+  float: right;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
