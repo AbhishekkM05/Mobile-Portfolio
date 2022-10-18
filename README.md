@@ -9,7 +9,7 @@ Portfolio
 
 ## Built With
 
-- Major languages HTML and CSS 
+- Major languages HTML and CSS and Javascript
 - Technologies used  Linters 
 
 To get a local copy up and running follow these simple example steps.
@@ -31,6 +31,9 @@ https://github.com/AbhishekkM05/Mobile-Portfolio.git
 - GitHub: (https://github.com/AbhishekkM05)
 - Twitter: (https://twitter.com/KPrinceM05)
 - LinkedIn: (www.linkedin.com/in/abhishek-kumar-mishra-bb5bb4101/)
+
+👤 **Author**
+ - Github:(https://github.com/aliakhraisha)
 
 ## 🤝 Contributing
 
