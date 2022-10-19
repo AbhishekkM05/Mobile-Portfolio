@@ -47,114 +47,9 @@
 </section>
 
 <section class="works" id="Portfolio">
-    <div class="project1">
-        <div class="img1"><img src="assets/images/Tonic.png" alt="T"></div>
-        <div class="card1"><img src="assets/images/card1_ds.png" alt="T"></div>
-        <div class="task"><h2>Tonic</h2>
-            <div class="list">
-            <ul>
-                <li class="canopy">CANOPY</li> 
-                <li><img src="assets/images/Counter.png" alt="dot"></li>
-                <li>Backend Dev</li>
-                <li><img src="assets/images/Counter.png" alt="dot"></li>
-                <li>2015</li>
-            </ul>
-            </div>
-            <p class="para">A daily selection of privately personalized
-                reads; no accounts or sign-ups required.</p> 
-                <div class="button-list">
-                    <ul>
-                      <li><a href="">html</a></li>
-                      <li><a href="">css</a></li>
-                      <li><a href="">javaScript</a></li>
-                    </ul>
-                  </div>
-              <div> 
-            <button class="btn" type="button">See Project</button>
-            </div>
-        </div>
-    </div>
-    <div class="project2">
-        <div class="img1"><img src="assets/images/Multipost.png" alt="MP"></div>
-        <div class="card2"><img src="assets/images/card2_ds.png" alt="T"></div>
-        <div class="task"><h2>Multi-post Stories</h2>
-            <div class="list">
-                <ul>
-                    <li class="canopy">CANOPY</li> 
-                    <li><img src="assets/images/Counter.png" alt="dot"></li>
-                    <li>Backend Dev</li>
-                    <li><img src="assets/images/Counter.png" alt="dot"></li>
-                    <li>2015</li>
-                </ul>
-                </div>
-            <p class="para">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
-                <div class="button-list">
-                    <ul class="bl">
-                      <li><a href="">html</a></li>
-                      <li class="ignore"><a href="#">Ruby on rails</a></li>
-                      <li><a href="">css</a></li>
-                      <li><a href="">javaScript</a></li>
-                    </ul>
-                  </div>
-              <div> 
-            <button class="btn" type="button">See Project</button>
-            </div>
-        </div>
-    </div>
-    <div class="project3">
-        <div class="img1"><img src="assets/images/Tonic1.png" alt="T1"></div>
-        <div class="card1"><img src="assets/images/card3_ds.png" alt="T"></div>
-        <div class="task"><h2>Facebook 360</h2>
-            <div class="list">
-                <ul>
-                    <li class="canopy">Facebook</li> 
-                    <li><img src="assets/images/Counter.png" alt="dot"></li>
-                    <li>Fullstack Dev</li>
-                    <li><img src="assets/images/Counter.png" alt="dot"></li>
-                    <li>2015</li>
-                </ul>
-                </div>
-            <p class="para">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-                <div class="button-list">
-                    <ul class="bl">
-                      <li><a href="">html</a></li>
-                      <li class="ignore"><a href="">Ruby on rails</a></li>
-                      <li><a href="">css</a></li>
-                      <li><a href="">javaScript</a></li>
-                    </ul>
-                  </div>
-              <div> 
-            <button class="btn" type="button">See Project</button>
-            </div>
-        </div>
-        </div>
-        <div class="project4">
-         <div class="img1"><img src="assets/images/Multpost1.png" alt="MP1"></div>
-         <div class="card2"><img src="assets/images/card4_ds.png" alt="T"></div>
-            <div class="task"><h2>Uber Navigation</h2>
-                <div class="list">
-                    <ul>
-                        <li class="canopy">Uber</li> 
-                        <li><img src="assets/images/Counter.png" alt="dot"></li>
-                        <li>Lead Developer</li>
-                        <li><img src="assets/images/Counter.png" alt="dot"></li>
-                        <li>2018</li>
-                    </ul>
-                    </div>
-                <p class="para">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-                    <div class="button-list">
-                        <ul class="bl">
-                          <li><a href="">html</a></li>
-                          <li class="ignore"><a href="">Ruby on rails</a></li>
-                          <li><a href="">css</a></li>
-                          <li><a href="">javaScript</a></li>
-                        </ul>
-                      </div>
-                  <div> 
-                <button class="btn" type="button">See Project</button>
-                </div>
-            </div>
-        </div>
+    <div id="cards"></div>
+    
+    
     <div class="describe" id="About">
         <div class="abt-self">
         <h3>About Myself</h3>
@@ -221,11 +116,127 @@
      <div class="background-shape"><img src="assets/images/contact form shapes-mobile.svg" alt="image">
     </div> 
   </div>
+
+
    </section>
 
      <br>
 
      <script src="mobilemenu.js"></script>
-
+   <script src="pop-up.js"></script>
+   <script>
+    const carddiv = document.querySelector('#cards');
+   
+        let cards = [
+        {
+          title: 'Tonic',
+          jobDescription: {
+            company: 'CANOPY',
+            role: 'Back End Dev',
+            year: '2015',
+          },
+          img: 'images/Snapshoot-Portfolio.jpg',
+          description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+          skills: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
+          btn1: 'See live',
+          btn2: 'See Source',
+        },
+        {
+          title: 'Multi-Post Stories',
+          jobDescription: {
+            company: 'CANOPY',
+            role: 'Back End Dev',
+            year: '2015',
+          },
+          img: 'images/Snapshoot-Portfolio-2.jpg"',
+          description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+          skills: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
+          btn1: 'See live',
+          btn2: 'See Source',
+        },
+        {
+          title: 'Tonic',
+          jobDescription: {
+            company: 'CANOPY',
+            role: 'Back End Dev',
+            year: '2015',
+          },
+          img: 'images/Snapshoot-Portfolio.jpg',
+          description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+          skills: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
+          btn1: 'See live',
+          btn2: 'See Source',
+      
+        },
+        {
+          title: 'Multi-Post Stories',
+          img: 'images/Snapshoot-Portfolio-2.jpg',
+          jobDescription: {
+            company: 'CANOPY',
+            role: 'Back End Dev',
+            year: '2015',
+          },
+          description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+          skills: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
+          btn1: 'See live',
+          btn2: 'See Source',
+      
+        },
+        {
+            title: 'Multi-Post Stories',
+            img: 'images/Snapshoot-Portfolio-2.jpg',
+            jobDescription: {
+              company: 'CANOPY',
+              role: 'Back End Dev',
+              year: '2015',
+            },
+            description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+            skills: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstrap'],
+            btn1: 'See live',
+            btn2: 'See Source',
+        
+          }
+        ];
+        let i =0;
+        cards.forEach(card=>{
+            carddiv.innerHTML += `<div class="project1">
+                <div class="img1"><img src="${card.img}" alt="T"></div>
+                <div class="card1"><img src="assets/images/card1_ds.png" alt="T"></div>
+                <div class="task"><h2>${card.title}</h2>
+                    <div class="list">
+                    <ul>
+                        <li class="canopy">CANOPY</li> 
+                        <li><img src="assets/images/Counter.png" alt="dot"></li>
+                        <li>Backend Dev</li>
+                        <li><img src="assets/images/Counter.png" alt="dot"></li>
+                        <li>2015</li>
+                    </ul>
+                    </div>
+                    <p class="para">${card.description}</p> 
+                        <div class="button-list">
+                            <ul>
+                              <li><a href="">html</a></li>
+                              <li><a href="">css</a></li>
+                              <li><a href="">javaScript</a></li>
+                            </ul>
+                          </div>
+                      <div> 
+                    <button class="btn pop-up" data-id='${i}' id="popup-${i}"  type="button">See Project</button>
+                    </div>
+                </div>
+            </div>`
+           i++;        });
+           const popbtn = document.querySelectorAll(".pop-up");
+           popbtn.forEach(item =>{
+          
+            item.addEventListener('click',(e)=>{
+              
+                popup(e.target.dataset.id)
+            })
+           })
+           function popup(id){
+            console.log(cards[id])
+           }
+   </script>
 </body>
 </html>
