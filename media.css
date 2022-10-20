@@ -479,6 +479,7 @@
 }
 
 .popimg {
+  display: none;
   position: relative;
   width: 100%;
   margin-bottom: 10px;
@@ -574,4 +575,10 @@ color:blue;
 padding: 10px 5px;
 border-radius: 8px;
 }
+.dpopimg{
+  display: block;
 }
+
+}
+
+

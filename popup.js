@@ -95,7 +95,7 @@ const pop = document.querySelector('#pop-window');
             </div>`;
         //    i++;        
 
-    
+              // <i class="btnicon bi bi-github"></i>
         
     }
 
@@ -119,6 +119,7 @@ function Popup(position) {
       <li class="year gray">${cardsObj[position].jobDescription.year}</li>
     </ul>
     <img class= "popimg" src="${cardsObj[position].mimg}" alt="">
+    <img class= "dpopimg" src="${cardsObj[position].dimg}" alt="">
     <div class="bottom">
       <p>${cardsObj[position].description}</p>
       <div class="right-side">
@@ -133,15 +134,21 @@ function Popup(position) {
                   ${
                     cardsObj[position].btn1
       } &nbsp;&nbsp;&nbsp;
-                    <i class="btnicon bi bi-box-arrow-up-right"></i>
+      <img src="./assets/images/source.svg">
+
+  
                   </a>
           </button>
           <button type="button" class="pop-btn">
                   <a class="btn-live"href="">
                   ${
                     cardsObj[position].btn2
-      } &nbsp;&nbsp;&nbsp;
-                    <i class="btnicon bi bi-github"></i>
+      } &nbsp;&nbsp;&nbsp;         
+      <img src="./assets/images/live.svg">
+
+    
+     
+      
                   </a>
           </button>
       </div>

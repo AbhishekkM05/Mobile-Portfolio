@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+.dpopimg{
+  display: none;
+}
+
+.popimg {
+  display: block;
+}
+
 body {
   background-color: #e5e5e5;
 }
