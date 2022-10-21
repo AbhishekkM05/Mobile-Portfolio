@@ -2,12 +2,8 @@
   box-sizing: border-box;
 }
 
-.dpopimg{
+.dpopimg {
   display: none;
-}
-
-.popimg {
-  display: block;
 }
 
 body {
@@ -110,6 +106,28 @@ h1 {
   justify-content: space-between;
   text-align: start;
   gap: 100px;
+}
+
+.project-language li {
+  margin-right: 18px;
+  background-color: #c1c7d0;
+  color: blue;
+  padding: 10px 5px;
+}
+
+.project-languages {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-left: -35px;
+}
+
+.project-languages li {
+  margin-right: 18px;
+  background-color: #c1c7d0;
+  color: blue;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 .Links ul li {
@@ -319,6 +337,7 @@ h3 {
   font-size: 40px;
   line-height: 52px;
   color: #344563;
+  width: 58%;
 }
 
 .description {
@@ -620,46 +639,18 @@ html {
   scroll-behavior: smooth;
 }
 
-.pop {
-  display: none;
-  position: fixed;
-  margin: 0 auto;
-  top: 0;
-  bottom: 0;
-  max-height: 100vh;
-  width: 100vw;
-  overflow: auto;
-  background: rgb(193 199 208 / 50%);
-  backdrop-filter: blur(3px);
-  padding: 50px 16px;
-}
-
-.pop-content {
-  width: 100%;
-  margin: 0 auto;
-  height: 100vh;
-  background-color: #fff;
-  border: 1px solid #ebecf0;
-  box-sizing: border-box;
-  padding: 20px 16px;
-  border-radius: 15px;
-  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-}
-
 .head-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: -65px;
+  margin-top: -40px;
 }
 
 .close-icon {
   cursor: pointer;
 }
 
-.work-place {
-  margin-top: 22px;
-  margin-bottom: 20px;
-}
 .pop-content > ul {
   display: flex;
   flex-direction: row;
@@ -705,30 +696,17 @@ html {
   font-weight: 600;
 }
 
-.head-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.close-icon {
-  cursor: pointer;
-}
 .work-place {
   margin-top: 22px;
   margin-bottom: 20px;
 }
 
-.pop-content > ul > li > .year {
-  color: #344563;
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.popdimg  {
+.popdimg {
   display: none;
 }
 
 .popimg {
+  display: block;
   position: relative;
   width: 100%;
   margin-bottom: 10px;
@@ -750,17 +728,19 @@ html {
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
+  margin-left: 5px;
 }
 
-.project-language{
-    display: flex;
-    list-style-type: none;
-    flex-wrap: wrap;
+.btn-live {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 13px;
 }
 
-.project-language li {
-  margin-right: 18px;
-background-color: #c1c7d0;
-color:blue;
-padding: 10px 5px;
+.project-language {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
 }

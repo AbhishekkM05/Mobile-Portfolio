@@ -130,7 +130,7 @@ function Popup(position) {
         </ul>
         <div class="popup-buttons">
           <button type="button" class="pop-btn">
-                  <a class="btn-live"href="">
+                  <a class="btn-live"href="https://abhishekkm05.github.io/Mobile-Portfolio/">
                   ${
                     cardsObj[position].btn1
       } &nbsp;&nbsp;&nbsp;
@@ -140,7 +140,7 @@ function Popup(position) {
                   </a>
           </button>
           <button type="button" class="pop-btn">
-                  <a class="btn-live"href="">
+                  <a class="btn-live"href="https://github.com/AbhishekkM05/Mobile-Portfolio/tree/pop-up">
                   ${
                     cardsObj[position].btn2
       } &nbsp;&nbsp;&nbsp;         
