@@ -536,15 +536,17 @@
     background: rgb(193 199 208 / 50%);
     backdrop-filter: blur(3px);
     padding: 50px 16px;
+    overflow-y: scroll;
   }
 
   .pop-content {
-    padding: 12px;
+    /* padding: 12px; */
     margin: 0 100px;
     display: flex;
     flex-direction: column;
     justify-items: center;
-    width: 110%;
+    /* width: 110%; */
+    width: auto;
     max-height: 100vh;
     background: #fff;
     border: 1px solid #ebecf0;
@@ -611,3 +613,23 @@
     padding: 8px;
   }
 }
+
+/* @media only screen and (min-width: 992px) {
+  .pop {
+    display: none;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    max-height: 100vh;
+    width: 100%;
+    overflow: auto;
+    background: rgb(193 199 208 / 50%);
+    backdrop-filter: blur(3px);
+    padding: 50px 16px;
+    overflow-y: scroll; 
+  } 
+
+} */
