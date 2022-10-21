@@ -666,7 +666,7 @@ html {
   margin: 0 auto;
   top: 0;
   bottom: 0;
-  max-height: 100vh;
+  max-height: 100%;
   width: 100vw;
   overflow: auto;
   background: rgb(193 199 208 / 50%);

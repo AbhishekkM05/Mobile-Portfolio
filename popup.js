@@ -134,22 +134,14 @@ function Popup(position) {
                   ${
                     cardsObj[position].btn1
       } &nbsp;&nbsp;&nbsp;
-      <img src="./assets/images/source.svg">
-
-  
-                  </a>
+      <img src="./assets/images/source.svg"> </a>
           </button>
           <button type="button" class="pop-btn">
                   <a class="btn-live"href="https://github.com/AbhishekkM05/Mobile-Portfolio/tree/pop-up">
                   ${
                     cardsObj[position].btn2
       } &nbsp;&nbsp;&nbsp;         
-      <img src="./assets/images/live.svg">
-
-    
-     
-      
-                  </a>
+      <img src="./assets/images/live.svg"> </a>
           </button>
       </div>
     </div>
