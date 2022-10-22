@@ -62,9 +62,7 @@ const pop = document.querySelector('#pop-window');
         }
        
         ];
-        // console.log(cardsObj);
-        // let i =0;
-        // cards.forEach((card)=>{
+        
             for(let i = 0; i< cardsObj.length; i+=1){
                 console.log(cardsObj[i].dimg);
             carddiv.innerHTML += `<div class="project`+(i+1)+`">
@@ -93,15 +91,11 @@ const pop = document.querySelector('#pop-window');
                     </div>
                 </div>
             </div>`;
-        //    i++;        
-
-              // <i class="btnicon bi bi-github"></i>
         
-    }
+         }
 
        
-    
-function Popup(position) {
+    function Popup(position) {
     const popContent = document.createElement('section');
     popContent.innerHTML = (`
     <div class="pop-content">
