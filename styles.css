@@ -640,6 +640,7 @@ html {
 }
 
 .head-title {
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -662,6 +663,7 @@ html {
 
 .pop {
   display: none;
+  justify-content: center;
   position: fixed;
   margin: 0 auto;
   top: 0;
@@ -677,7 +679,7 @@ html {
 .pop-content {
   width: 100%;
   margin: 0 auto;
-  height: 100vh;
+  height: 90vh;
   background-color: #fff;
   border: 1px solid #ebecf0;
   box-sizing: border-box;
@@ -688,6 +690,11 @@ html {
 
 .pop-content > ul > li {
   list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .pop-content > ul > li > .year {
@@ -713,11 +720,18 @@ html {
   border-radius: 8px;
 }
 
+.bottom {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 .popup-buttons {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 0fr 1fr;
-  column-gap: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   border-top: 1px solid #ebecf0;
 }
 
