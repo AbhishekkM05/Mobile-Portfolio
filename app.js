@@ -1,11 +1,4 @@
 //form-validation 
-const projectnBtn = document.querySelectorAll('#popbtn');
-projectnBtn.forEach((btn, ind) => {
-  btn.addEventListener('click', () => {
-    Popup(ind);
-  });
-});
-
 const form = document.querySelector('#form');
 const inputEmail = document.querySelector('#email');
 
@@ -27,3 +20,5 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+//local storage 
