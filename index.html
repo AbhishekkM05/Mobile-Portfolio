@@ -14,8 +14,7 @@
     <title>Mobile Portfolio</title>
 </head>
 <body>
-        <header>
-        
+        <header>     
         <div class="Main-container"><p class="logo"><a="">My Logo</a></p>
         <div class="menu" id="icon"><i class="fa fa-bars"></i></div>
         <nav class="menu2">
@@ -46,8 +45,10 @@
          </div>
 </section>
 
-<section class="works" id="Portfolio">
-    <div class="project1">
+<section class="works"  id="Portfolio">
+    <div id="cards-parent-element"></div>
+    
+    <!-- <div class="project1">
         <div class="img1"><img src="assets/images/Tonic.png" alt="T"></div>
         <div class="card1"><img src="assets/images/card1_ds.png" alt="T"></div>
         <div class="task"><h2>Tonic</h2>
@@ -154,8 +155,8 @@
                 <button class="btn" type="button">See Project</button>
                 </div>
             </div>
-        </div>
-    <div class="describe" id="About">
+        </div> -->
+    <div class="describe" id="About"> 
         <div class="abt-self">
         <h3>About Myself</h3>
         <p class="description">Hello I’m a software
@@ -223,9 +224,11 @@
   </div>
    </section>
 
-     <br>
+    <div class="pop" id="pop-window"></div> 
+
 
      <script src="mobilemenu.js"></script>
+     <script type="text/javascript" src="./popup.js"></script>
 
 </body>
 </html>
