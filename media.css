@@ -545,6 +545,7 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
+
     /* width: 110%; */
     width: auto;
     max-height: 100vh;
@@ -629,7 +630,7 @@
     background: rgb(193 199 208 / 50%);
     backdrop-filter: blur(3px);
     padding: 50px 16px;
-    overflow-y: scroll; 
-  } 
+    overflow-y: scroll;
+  }
 
 } */
